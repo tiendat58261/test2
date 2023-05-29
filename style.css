@@ -1,0 +1,87 @@
+#first {
+    color: blue;
+    font-size: 45px;
+  }
+  .second {
+    color: var(--mau_chu);
+    font-size: 18px;
+
+
+  }
+  ul{
+    color: deeppink;
+    list-style: 35px;
+    font-size:  15px;
+  }
+  li{
+    color: rgb(0, 0, 109);
+  }
+  :root{
+    --mau_chu: green;
+  }
+  .box{
+    width: 80px;
+    height: 80px;
+    background-color: aquamarine;
+    position: relative;
+    animation-name: dichuyen;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes dichuyen {
+    0% {background-color: aqua; left: 0px; top: 0px; scale: 15%; }
+    25% { background-color: blueviolet; left: 100px; top: 0px;scale: 30%; }
+    50% { background-color: blue; left: 100px; top: 50px; scale: 55%; }
+    75% { background-color: violet; left: 0px; top: 50px; scale: 75%; }
+    100% { background-color: aquamarine; left: 0px; top: 0px; scale: 100%; width: 80px;height: 80px; } 
+  }
+  .bgweb{
+    background-image: -moz-linear-gradient();
+  }
+  .dat{
+    width: 1280px;
+    height: 720px;
+  }
+  .But{
+    color: black;
+    background-color: aqua ;
+  }
+  .boxx{
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .box1{
+    background-color: #333;
+  }
+  .box2{
+    background-color: orange;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .box3{
+    background-color: red;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-width: 10px;
+    border-style: outset;
+    border-style: inset;
+    border-color: yellow;
+    border: 20px outset deepskyblue ;
+    margin-top: 30px;
+  }
+  #btb3{
+    background-color: greenyellow;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-emphasis-color: white;
+    <!-- >
+  }
